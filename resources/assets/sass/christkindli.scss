@@ -1,0 +1,23 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+@import "variables-winhuus";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Global design
+@import "global";
+
+.btn-submit {
+  letter-spacing: 0.5em;
+}
+
+hr {
+  border-top: 2px dotted black;
+  width: 60%;
+  margin: 0 auto 20px auto;
+}

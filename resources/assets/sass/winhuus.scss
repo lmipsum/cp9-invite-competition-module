@@ -1,0 +1,236 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+@import "variables-winhuus";
+
+// Bootstrap
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Global design
+@import "global";
+
+@font-face {
+  font-family:'SignPainter';
+  src: url('../font/winhuus/SignPainter-HouseScript.eot');
+  src: local('SignPainter-HouseScript'), local(SignPainter-HouseScript),
+  url('../font/winhuus/SignPainter-HouseScript.eot?#iefix') format('embedded-opentype'),
+  url('../font/winhuus/SignPainter-HouseScript.woff2') format('woff2'),
+  url('../font/winhuus/SignPainter-HouseScript.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-FB02;
+}
+
+@font-face {
+  font-family:'SBB Web';
+  src: url('../font/winhuus/SBBWeb-UltraLight.eot');
+  src: local('SBBWeb-UltraLight'), local(SBB Web UltraLight),
+  url('../font/winhuus/SBBWeb-UltraLight.eot?#iefix') format('embedded-opentype'),
+  url('../font/winhuus/SBBWeb-UltraLight.woff2') format('woff2'),
+  url('../font/winhuus/SBBWeb-UltraLight.woff') format('woff'),
+  url('../font/winhuus/SBBWeb-UltraLight.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-FB04;
+}
+
+@font-face {
+  font-family:'SBB Web';
+  src: url('../font/winhuus/SBBWeb-Thin.eot');
+  src: local('SBBWeb-Thin'), local(SBB Web Thin),
+  url('../font/winhuus/SBBWeb-Thin.eot?#iefix') format('embedded-opentype'),
+  url('../font/winhuus/SBBWeb-Thin.woff2') format('woff2'),
+  url('../font/winhuus/SBBWeb-Thin.woff') format('woff'),
+  url('../font/winhuus/SBBWeb-Thin.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-FB04;
+}
+
+@font-face {
+  font-family:'SBB Web';
+  src: url('../font/winhuus/SBBWeb-Light.eot');
+  src: local('SBBWeb-Light'), local(SBB Web Light),
+  url('../font/winhuus/SBBWeb-Light.eot?#iefix') format('embedded-opentype'),
+  url('../font/winhuus/SBBWeb-Light.woff2') format('woff2'),
+  url('../font/winhuus/SBBWeb-Light.woff') format('woff'),
+  url('../font/winhuus/SBBWeb-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-FB04;
+}
+
+@font-face {
+  font-family:'SBB Web';
+  src: url('../font/winhuus/SBBWeb-Italic.eot');
+  src: local('SBBWeb-Italic'), local(SBB Web Italic),
+  url('../font/winhuus/SBBWeb-Italic.eot?#iefix') format('embedded-opentype'),
+  url('../font/winhuus/SBBWeb-Italic.woff2') format('woff2'),
+  url('../font/winhuus/SBBWeb-Italic.woff') format('woff'),
+  url('../font/winhuus/SBBWeb-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  unicode-range: U+0020-FB04;
+}
+
+@font-face {
+  font-family:'SBB Web';
+  src: url('../font/winhuus/SBBWeb-Bold.eot');
+  src: local('SBBWeb-Bold'), local(SBB Web Bold),
+  url('../font/winhuus/SBBWeb-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../font/winhuus/SBBWeb-Bold.woff2') format('woff2'),
+  url('../font/winhuus/SBBWeb-Bold.woff') format('woff'),
+  url('../font/winhuus/SBBWeb-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-FB04;
+}
+
+@font-face {
+  font-family:'SBB Web Condensed';
+  src: url('../font/winhuus/SBBWeb-Condensed-Bold.eot');
+  src: local('SBBWebCondensed-Bold'), local(SBB Web Condensed Bold),
+  url('../font/winhuus/SBBWeb-Condensed-Bold.eot?#iefix') format('embedded-opentype'),
+  url('../font/winhuus/SBBWeb-Condensed-Bold.woff2') format('woff2'),
+  url('../font/winhuus/SBBWeb-Condensed-Bold.woff') format('woff'),
+  url('../font/winhuus/SBBWeb-Condensed-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-FB04;
+}
+
+@font-face {
+  font-family:'SBB Web Condensed';
+  src: url('../font/winhuus/SBBWeb-Condensed-Heavy.eot');
+  src: local('SBBWebCondensed-Heavy'), local(SBB Web Condensed Heavy),
+  url('../font/winhuus/SBBWeb-Condensed-Heavy.eot?#iefix') format('embedded-opentype'),
+  url('../font/winhuus/SBBWeb-Condensed-Heavy.woff2') format('woff2'),
+  url('../font/winhuus/SBBWeb-Condensed-Heavy.woff') format('woff'),
+  url('../font/winhuus/SBBWeb-Condensed-Heavy.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-FB04;
+}
+
+@font-face {
+  font-family:'SBB Web Roman';
+  src: url('../font/winhuus/SBBWeb-Roman.eot');
+  src: local('SBBWeb-Roman'), local(SBB Web Roman),
+  url('../font/winhuus/SBBWeb-Roman.eot?#iefix') format('embedded-opentype'),
+  url('../font/winhuus/SBBWeb-Roman.woff2') format('woff2'),
+  url('../font/winhuus/SBBWeb-Roman.woff') format('woff'),
+  url('../font/winhuus/SBBWeb-Roman.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-FB04;
+}
+
+body {
+  background-image: url('../img/winhuus/bg_pattern.png');
+  font-size: 1.16vw;
+}
+
+h1 {
+  font-size: 3.43em;
+}
+
+h2 {
+  font-size: 1.88em;
+}
+
+h4 {
+  font-size: 1.12em;
+}
+
+.panel {
+  border-width: 0;
+  margin-bottom: 0;
+}
+
+.btn {
+  &-primary {
+    &:hover {
+      background-color: #fff;
+      border-color: #000;
+      color: #000;
+    }
+  }
+  &-success {
+    font-weight: bold;
+  }
+}
+
+.border-double {
+  border: 4px double #fff;
+}
+
+.font-signpainter {
+  font-family: 'SignPainter', sans-serif;
+  font-size: 3.31em;
+}
+
+.answer {
+  @extend .border-double;
+}
+
+.answer, .question {
+  @extend .font-signpainter;
+}
+
+.question {
+  font-weight: normal;
+}
+
+.answer {
+  display: inline-block;
+  position: relative;
+  line-height: .7em;
+  padding: 12px 5.4% 4px;
+  text-align: center;
+  width: auto;
+
+  &-container {
+    display: flex;
+    justify-content: center;
+    counter-reset: answer;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+
+  &::before {
+    content: counter(answer, upper-alpha);
+    position: absolute;
+    counter-increment: answer;
+    left: -22px;
+    transform: translateX(-100%);
+    color: #fff;
+    font-size: .76em;
+  }
+}
+
+.answer, .answer + .answer {
+  margin: 0 2.3vw;
+}
+
+#social {
+  background-color: #ba0b11;
+  margin-top: -5px;
+  position: relative;
+  z-index: -1;
+  padding-top: 5px;
+  min-height: 155px;
+  display: flex;
+  align-items: center;
+}

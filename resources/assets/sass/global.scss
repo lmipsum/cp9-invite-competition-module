@@ -1,0 +1,106 @@
+
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  min-height: 100%;
+  flex-wrap: wrap;
+}
+
+#app {
+  display: flex;
+  align-self: center;
+  width: 100%;
+  margin-top: 350px;
+  margin-bottom: 260px;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.invalid {
+  border-color: red;
+  color: red;
+}
+
+.radio {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.form-control {
+  margin-bottom: 5px;
+}
+
+.feedback {
+  margin-bottom: 25px;
+  text-align: center;
+
+  .radio:first-of-type {
+    margin-right: 60px;
+  }
+
+  .radio:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.gender  {
+  text-align: left;
+}
+
+.btn-submit {
+  margin-top: 45px;
+}
+
+.btn-finished {
+  margin-top: 20px;
+}
+
+.outline-none {
+  outline: none;
+  outline-offset: 0;
+}
+
+.btn {
+  &:focus, &.focus, &:active:focus, &:active.focus, &.active:focus, &.active.focus {
+    @extend .outline-none;
+  }
+}
+
+.prize {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  &:first-of-type {
+    margin-top: 22px;
+  }
+
+  &:last-of-type {
+    margin-bottom: 22px;
+  }
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.page-subtitle {
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.answer {
+  &.selected {
+    background-color: white;
+    color: black;
+  }
+}
